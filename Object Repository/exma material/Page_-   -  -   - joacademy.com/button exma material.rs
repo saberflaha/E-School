@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button exma material</name>
+   <tag></tag>
+   <elementGuidId>ccd575c7-d129-4a2b-ae61-5fdce116d0ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;الأول&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>947b49a5-3cad-4be3-9e06-9692a9681594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-flex tw-h-[72px] tw-w-[150px] md:tw-border-none tw-items-center !tw-rounded-[20px] !tw-bg-gradient-to-br tw-justify-center tw-gap-2 tw-p-2 tw-from-[#905DF5] tw-to-[#813BEC] md:tw-w-[179px] md:tw-h-[179px]</value>
+      <webElementGuid>ed64df02-7bb2-48b1-a40a-cf23c676aed5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الأول</value>
+      <webElementGuid>bba6975b-b0e0-4032-adb8-1e2ac3318bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-mt-4 tw-mb-20&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-self-center tw-items-center tw-gap-4&quot;]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-flex tw-flex-wrap tw-gap-3 md:tw-gap-4 lg:tw-gap-8 max-md:!tw-bg-[#F9F9F9] max-md:!tw-border-[#DFDFDF] tw-items-center tw-h-full tw-p-3 xl:!tw-w-[844px] tw-w-full tw-justify-center tw-border !tw-rounded-[14px]&quot;]/a[1]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-flex tw-h-[72px] tw-w-[150px] md:tw-border-none tw-items-center !tw-rounded-[20px] !tw-bg-gradient-to-br tw-justify-center tw-gap-2 tw-p-2 tw-from-[#905DF5] tw-to-[#813BEC] md:tw-w-[179px] md:tw-h-[179px]&quot;]</value>
+      <webElementGuid>a9b227ab-843a-4d8d-b0e5-6c5a8cb7924c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div[2]/div/a/div</value>
+      <webElementGuid>641d0825-71b4-4ae0-9795-baa06e3aaad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='فعاليات جو اكاديمي'])[1]/following::div[7]</value>
+      <webElementGuid>0ff724ec-a8e1-401e-8e4f-46fb9e228fae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='منح جواكاديمي'])[1]/following::div[7]</value>
+      <webElementGuid>52b39da0-5162-4e25-a294-f093db9cef59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::div[17]</value>
+      <webElementGuid>993b9ca0-a207-4d49-a521-6797b5e1e308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='روابط سريعة'])[1]/preceding::div[18]</value>
+      <webElementGuid>27f3e8e9-9381-437e-b050-85b02790b88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/div</value>
+      <webElementGuid>5ba457a6-c880-4aaf-873c-95e8f0a24703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'الأول' or . = 'الأول')]</value>
+      <webElementGuid>b36da0e7-24a7-488a-96f7-483743c5dcbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

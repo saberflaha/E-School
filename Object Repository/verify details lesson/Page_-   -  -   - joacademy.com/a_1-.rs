@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_1-</name>
+   <tag></tag>
+   <elementGuidId>8f5afc66-7d1f-4294-b998-1cfaa4a506ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:R2rqjnl6:']/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;1- نَحْنُ مُتشابِهون&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>18da8d7f-0d19-4e8d-9caa-f30e8bd7db13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-items-center tw-justify-between tw-gap-6 tw-rounded-lg tw-bg-[#FFFFFF] tw-px-2 tw-py-4 tw-text-[#343434]</value>
+      <webElementGuid>5e949e25-f30f-4c7b-94d8-94aedccbd7bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/e-school/lesson/%D9%86%D9%8E%D8%AD%D9%92%D9%86%D9%8F-%D9%85%D9%8F%D8%AA%D8%B4%D8%A7%D8%A8%D9%90%D9%87%D9%88%D9%86-2016?grade=1</value>
+      <webElementGuid>c0aa5e5d-3f88-45a2-b2a3-a431474aebc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1- نَحْنُ مُتشابِهون</value>
+      <webElementGuid>d4b5e69c-9591-4b18-84fe-d94817585390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:R2rqjnl6:&quot;)/div[@class=&quot;tw-pb-4 tw-pt-0 tw-flex tw-flex-col tw-gap-4 !tw-p-5 tw-mt-4 tw-bg-[#813BEC] !tw-rounded-[10px]&quot;]/a[@class=&quot;tw-flex tw-items-center tw-justify-between tw-gap-6 tw-rounded-lg tw-bg-[#FFFFFF] tw-px-2 tw-py-4 tw-text-[#343434]&quot;]</value>
+      <webElementGuid>d2256674-4289-4b9d-b652-a8dc6b57c96d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:R2rqjnl6:']/div/a</value>
+      <webElementGuid>01242a2c-bdc9-49f2-9d51-e5763e3992ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الإنسان والصحة'])[1]/following::a[1]</value>
+      <webElementGuid>0f30ccc5-b444-4095-938e-ad9b1f8e756b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='دروس مجانية'])[1]/following::a[1]</value>
+      <webElementGuid>48a577ab-3277-42f9-a97f-205c81ee19a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حاجاتُ الإنسان الأساسيّة'])[1]/preceding::a[1]</value>
+      <webElementGuid>0517345d-3bcb-45ff-810a-64f9b0e86037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/e-school/lesson/%D9%86%D9%8E%D8%AD%D9%92%D9%86%D9%8F-%D9%85%D9%8F%D8%AA%D8%B4%D8%A7%D8%A8%D9%90%D9%87%D9%88%D9%86-2016?grade=1')]</value>
+      <webElementGuid>0a1ed4f1-e814-4078-bf31-310341f4a3cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/a</value>
+      <webElementGuid>7ec507cc-a4fc-4578-b12f-9d5c16b57976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/e-school/lesson/%D9%86%D9%8E%D8%AD%D9%92%D9%86%D9%8F-%D9%85%D9%8F%D8%AA%D8%B4%D8%A7%D8%A8%D9%90%D9%87%D9%88%D9%86-2016?grade=1' and (text() = '1- نَحْنُ مُتشابِهون' or . = '1- نَحْنُ مُتشابِهون')]</value>
+      <webElementGuid>5a5296c8-f9e2-44e2-ac9b-5b5305307d08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

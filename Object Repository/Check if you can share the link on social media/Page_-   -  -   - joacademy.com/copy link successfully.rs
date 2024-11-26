@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copy link successfully</name>
+   <tag></tag>
+   <elementGuidId>24d21228-13e6-4b3b-a2d8-ebf46173c19a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[2]/ol/li/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>899d3579-21aa-4475-9eb3-c96f69c306fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ri-file-copy-fill  tw-text-[#1A428A]</value>
+      <webElementGuid>656966bd-ac9c-4779-9def-3b5c8fbdb4be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r18:&quot;)/button[@class=&quot;tw-cursor-pointer&quot;]/button[1]/i[@class=&quot;ri-file-copy-fill  tw-text-[#1A428A]&quot;]</value>
+      <webElementGuid>07b8380e-4b05-4a9b-a353-da6da2f0c79d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r18:']/button[5]/button/i</value>
+      <webElementGuid>0a9bb3d9-618e-4862-a7bc-39eef99d1c5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[5]/button/i</value>
+      <webElementGuid>ad9276c7-fa72-4ffc-9bf4-3eb390b3fd2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

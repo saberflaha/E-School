@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify button E-school</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01e54bf5-a6f9-4519-bcfb-e9a18deb981c</testCaseGuid>
+</TestCaseEntity>

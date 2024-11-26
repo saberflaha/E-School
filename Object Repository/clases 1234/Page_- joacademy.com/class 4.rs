@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>class 4</name>
+   <tag></tag>
+   <elementGuidId>558bcbb4-3e5b-4385-a1aa-bc1affcd3769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div[2]/div/a[3]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;الثالث&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ad4fae7b-287c-4070-9dcd-77dabbbe9851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-text-base md:tw-text-xl tw-font-semibold tw-text-white tw-text-center lg:tw-leading-[28px] md:!tw-text-[31px]</value>
+      <webElementGuid>6984b67d-a16c-42fe-b0ad-e4d148f0f8b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الثالث</value>
+      <webElementGuid>f52b5c16-b35e-44ec-a547-0b932bb02939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-mt-4 tw-mb-20&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-self-center tw-items-center tw-gap-4&quot;]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-flex tw-flex-wrap tw-gap-3 md:tw-gap-4 lg:tw-gap-8 max-md:!tw-bg-[#F9F9F9] max-md:!tw-border-[#DFDFDF] tw-items-center tw-h-full tw-p-3 xl:!tw-w-[844px] tw-w-full tw-justify-center tw-border !tw-rounded-[14px]&quot;]/a[3]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-flex tw-h-[72px] tw-w-[150px] md:tw-border-none tw-items-center !tw-rounded-[20px] !tw-bg-gradient-to-br tw-justify-center tw-gap-2 tw-p-2 tw-from-[#905DF5] tw-to-[#813BEC] md:tw-w-[179px] md:tw-h-[179px]&quot;]/p[@class=&quot;tw-text-base md:tw-text-xl tw-font-semibold tw-text-white tw-text-center lg:tw-leading-[28px] md:!tw-text-[31px]&quot;]</value>
+      <webElementGuid>1333f126-39fa-47ef-90c0-4a11b0368ea4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div[2]/div/a[3]/div/p</value>
+      <webElementGuid>0cb5a1d9-c6a8-4190-ac8a-28782620447b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تسجيل'])[1]/following::p[4]</value>
+      <webElementGuid>e23953c0-d6f6-4358-91e9-6947751bc3bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='دخول'])[1]/following::p[4]</value>
+      <webElementGuid>6eb4d824-0b18-449e-ae96-3f2905a9bf3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::p[13]</value>
+      <webElementGuid>70161cae-3d4c-4520-b3f5-557b1e051b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='روابط سريعة'])[1]/preceding::p[13]</value>
+      <webElementGuid>b3a12327-2e05-4719-83d9-3d6dee9fd531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الثالث']/parent::*</value>
+      <webElementGuid>591d5716-bb51-4134-b524-79c9128f06a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/p</value>
+      <webElementGuid>6e3b7de8-15e4-4e98-a045-1282ab4bae3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'الثالث' or . = 'الثالث')]</value>
+      <webElementGuid>1ba3f864-ac29-4cd3-8631-8cebfedb61f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

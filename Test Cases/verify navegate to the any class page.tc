@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify navegate to the any class page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>380e05a7-6e2b-4b24-a737-f673aa0fe2e4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify file</name>
+   <tag></tag>
+   <elementGuidId>752fcf94-981c-4274-bcfa-032206b58a9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:rcg:-content-subject-files']/div[3]/div/article&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>article >> internal:has-text=&quot;امتحان نهائي علوم - للصف 4العلوم الصف الرابعالمشاركةتحميل الملف&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>article</value>
+      <webElementGuid>812ebccf-a1ba-41bf-9c92-3e090727d55e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#ffffff]</value>
+      <webElementGuid>9339ab5b-42bb-410e-9fca-d341057f1fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>امتحان نهائي علوم - للصف 4العلوم الصف الرابعالمشاركةتحميل الملف</value>
+      <webElementGuid>f496b989-55ad-426b-9e27-1414b868b6b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rcg:-content-subject-files&quot;)/div[@class=&quot;!tw-text-primary-gray tw-my-6&quot;]/div[@class=&quot;tw-relative tw-w-full&quot;]/article[@class=&quot;tw-flex tw-w-full tw-cursor-pointer tw-overflow-hidden tw-rounded-[10px] tw-border tw-gap-4 tw-p-4 tw-bg-[#ffffff]&quot;]</value>
+      <webElementGuid>16f13296-7a60-4040-8581-c235073291bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rcg:-content-subject-files']/div[3]/div/article</value>
+      <webElementGuid>04d0e6a7-3614-4100-b421-d1d86801cffe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المعلم'])[1]/following::article[1]</value>
+      <webElementGuid>321e108d-cbb6-483b-9856-5aefc77c9f95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='دروس مجانية'])[1]/following::article[1]</value>
+      <webElementGuid>3e2c91b3-d879-4622-8291-8740113d7995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article</value>
+      <webElementGuid>a354b5dc-3a3c-46b8-92ac-994e53044690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//article[(text() = 'امتحان نهائي علوم - للصف 4العلوم الصف الرابعالمشاركةتحميل الملف' or . = 'امتحان نهائي علوم - للصف 4العلوم الصف الرابعالمشاركةتحميل الملف')]</value>
+      <webElementGuid>3c8ccf9e-8048-4bb4-bb2e-d1b434326d10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

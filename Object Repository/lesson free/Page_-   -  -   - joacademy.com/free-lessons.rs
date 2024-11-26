@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>free-lessons</name>
+   <tag></tag>
+   <elementGuidId>5a58db12-e760-447c-b2fe-7fe5448bacc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;لا يتوفر دروس مجانية في الوقت الحالي&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d37023ab-b8f9-4233-b367-d6e8d843e69b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bold tw-text-white tw-text-center md:tw-w-[60%] tw-text-[20px] md:tw-text-[35px]</value>
+      <webElementGuid>07b2446f-d522-4919-9b7b-64a72ccac41b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>لا يتوفر دروس مجانية في الوقت الحالي</value>
+      <webElementGuid>7b695b3f-7900-4676-a2be-bd84b616b6e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r16:-content-free-lessons&quot;)/div[@class=&quot;tw-flex tw-flex-col tw-items-center md:tw-gap-8 md:tw-my-5 tw-mb-10&quot;]/p[@class=&quot;bold tw-text-white tw-text-center md:tw-w-[60%] tw-text-[20px] md:tw-text-[35px]&quot;]</value>
+      <webElementGuid>fbce41f6-661a-424b-9db2-a5607638236d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r16:-content-free-lessons']/div/p</value>
+      <webElementGuid>f279af4a-efed-4b82-8f84-b555b64081ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='دروس مجانية'])[2]/following::p[1]</value>
+      <webElementGuid>28c4e425-2432-4ada-8e28-354c1fcfffd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[1]/following::p[1]</value>
+      <webElementGuid>54e34c81-e7d0-4bee-9102-bdb10f290fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::p[1]</value>
+      <webElementGuid>d351ce29-d29b-4a55-a7ea-2cbdc5b0d16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='روابط سريعة'])[1]/preceding::p[1]</value>
+      <webElementGuid>952cb7e3-c89c-4920-a7b3-5f8aa8ccf635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='لا يتوفر دروس مجانية في الوقت الحالي']/parent::*</value>
+      <webElementGuid>55cb88d5-7089-4feb-a676-09a949b49cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p</value>
+      <webElementGuid>f47de431-76de-49af-9b5d-810fb1026a5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'لا يتوفر دروس مجانية في الوقت الحالي' or . = 'لا يتوفر دروس مجانية في الوقت الحالي')]</value>
+      <webElementGuid>be55eaf7-009f-479a-a98b-eba6b14da7a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

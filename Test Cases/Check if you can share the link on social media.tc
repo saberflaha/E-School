@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check if you can share the link on social media</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e48d0b35-6cd6-40e0-ac4c-ecae1e7c0b69</testCaseGuid>
+</TestCaseEntity>

@@ -106,6 +106,11 @@ WebUI.waitForElementVisible(findTestObject("Object Repository/submet exam/Page_-
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'), 10, FailureHandling.OPTIONAL)) {
     WebUI.scrollToElement(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'), 0)
     WebUI.click(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'))
+	
+	boolean Error_when_completing_the_exam =  WebUI.verifyElementText(findTestObject('Object Repository/book index/Page_-   -  -   - joacademy.com/verify button_ uint questiona'),'جميع الحقول مطلوبة')
+	if(Error_when_completing_the_exam) {println('Pass')}else {println('Fail')}
+	  WebUI.closeBrowser()
+   
     WebUI.comment("Clicked on the 'Finish Exam' button.")
 } else {
     WebUI.comment("'Finish Exam' button is not present.")

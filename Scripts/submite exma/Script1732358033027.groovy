@@ -113,5 +113,5 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/submet exam/Pag
 
 // Take a screenshot for verification
 WebUI.takeScreenshot()
-//WebUI.closeBrowser()
+WebUI.closeBrowser()
 

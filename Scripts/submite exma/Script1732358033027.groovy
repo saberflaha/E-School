@@ -70,7 +70,6 @@ if (questions != null && !questions.isEmpty()) {
 	for (int i = 0; i < numOfQuestions; i++) {
 		try {
 			// Create dynamic CSS selector for each question
-			//test
 			String cssSelector = "div.tw-flex.tw-gap-1.tw-items-center.tw-rounded-md .tw-cursor-pointer.tw-ring-offset-white.tw-rounded-full";
 			TestObject questionTestObject = new TestObject("DynamicObject" + i)
 			questionTestObject.addProperty('css', ConditionType.EQUALS, cssSelector)
@@ -114,5 +113,5 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/submet exam/Pag
 
 // Take a screenshot for verification
 WebUI.takeScreenshot()
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

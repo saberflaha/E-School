@@ -23,6 +23,7 @@ import java.util.Random as Random
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
+
 WebUI.openBrowser('https://www.joacademy.com/login')
 WebUI.maximizeWindow()
 WebUI.click(findTestObject('login/Page_- joacademy.com/by email button'))
@@ -30,10 +31,10 @@ WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__email'), 'saber
 WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__password'), '123456')
 WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
 
-//   E-school
+// Navigate to E-school
 WebUI.click(findTestObject('Object Repository/E-school/Page_- joacademy.com/E-school'))
 
-
+// Randomly select a class
 List<TestObject> classButtons = Arrays.asList(
 	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'),
 	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'),
@@ -41,11 +42,9 @@ List<TestObject> classButtons = Arrays.asList(
 	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3')
 )
 
-if (classButtons != null && classButtons.size() > 0) {
+if (!classButtons.isEmpty()) {
 	Random random = new Random()
-	
 	TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
-	
 	try {
 		WebUI.click(randomClassButton)
 		WebUI.comment("Passed: A random class button was clicked successfully.")
@@ -55,15 +54,15 @@ if (classButtons != null && classButtons.size() > 0) {
 } else {
 	WebUI.comment("Failed: No class buttons were found.")
 }
+
+// Select a random semester and material
 def selectRandomButton(testObjectPath, label) {
     List<WebElement> buttons = WebUI.findWebElements(findTestObject(testObjectPath), 30)
-    if (buttons != null && buttons.size() > 0) {
+    if (!buttons.isEmpty()) {
         Random random = new Random()
-        WebUI.comment("${label} buttons found: " + buttons.size())
         WebElement randomButton = buttons.get(random.nextInt(buttons.size()))
         try {
             if (randomButton.isDisplayed() && randomButton.isEnabled()) {
-                WebUI.comment("Trying to click a random ${label} button.")
                 randomButton.click()
                 WebUI.comment("Passed: A random ${label} button was clicked successfully.")
             } else {
@@ -80,29 +79,42 @@ def selectRandomButton(testObjectPath, label) {
 selectRandomButton('Object Repository/random material and semester/Page_-   -   - joacademy.com/random semester', 'semester')
 selectRandomButton('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material', 'material')
 
-   WebUI.waitForElementVisible(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'), 3)
-   WebUI.click(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'))
+// Start exam
+WebUI.waitForElementVisible(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'), 3)
+WebUI.click(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'))
 
-    List<WebElement> startExamButtons = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com/enter exam button'), 10)
-    if (startExamButtons != null && !startExamButtons.isEmpty()) {
-        Random random = new Random()
-        int randomIndex = random.nextInt(startExamButtons.size())
-        WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(startExamButtons.get(randomIndex)))
-    } else {
-        WebUI.comment('No start exam buttons found!')
-        return
-    }
+// Randomly click on start exam button
+List<WebElement> startExamButtons = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com/enter exam button'), 10)
+if (!startExamButtons.isEmpty()) {
+    Random random = new Random()
+    WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(startExamButtons.get(random.nextInt(startExamButtons.size()))))
+} else {
+    WebUI.comment('No start exam buttons found!')
+    return
+}
 
-    WebUI.delay(5)
-    WebUI.switchToWindowIndex(1)
-	
-WebUI.click('Object Repository/submite exam without login/Page_-   -  -   - joacademy.com/finsh exma material')	
+WebUI.delay(5)
+WebUI.switchToWindowIndex(1)
+
+// Scroll to bottom and click finish button
+WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+WebUI.waitForElementClickable(findTestObject('Object Repository/submite exam without login/Page_-   -  -   - joacademy.com/finsh exma material'), 5)
+
+try {
+    WebUI.click(findTestObject('Object Repository/submite exam without login/Page_-   -  -   - joacademy.com/finsh exma material'))
+    WebUI.comment("Passed: Finish button clicked successfully.")
+} catch (Exception e) {
+    WebUI.comment("Failed: Error occurred while clicking the finish button. Error: " + e.getMessage())
+    WebUI.takeScreenshot()
+}
+
+// Verify validation message
 if (WebUI.verifyElementText(findTestObject('material file/Page_-   -  -   - joacademy.com (1)/Verification message All fields are required'), 
     'جميع الحقول مطلوبة', FailureHandling.OPTIONAL)) {
     WebUI.comment('Pass: The verification message is displayed correctly.')
 } else {
     WebUI.comment('Fail: The verification message is not displayed as expected.')
-    WebUI.takeScreenshot() 
+    WebUI.takeScreenshot()
 }
-WebUI.closeBrowser()
 
+WebUI.closeBrowser()

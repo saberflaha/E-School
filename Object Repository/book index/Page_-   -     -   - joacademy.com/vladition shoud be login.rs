@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>finsh exma material</name>
+   <name>vladition shoud be login</name>
    <tag></tag>
-   <elementGuidId>980b2fc3-6631-4c11-8007-31a96a21ab1c</elementGuidId>
+   <elementGuidId>a9b1c9c1-04ad-4823-ae13-a9f779b17d6f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[p[text()='إنهاء الاختبار و إظهار النتيجة']]&#xd;
-</value>
+         <value>//*[@id=&quot;radix-:r1o:&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

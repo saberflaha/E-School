@@ -6,15 +6,16 @@
    <elementGuidId>733e588d-aaf0-4dc8-90fe-9f14f331bb3f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;radix-:r1v:&quot;]/button[5]]/button&#xd;
+</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button i.ri-file-copy-fill.tw-text-[#1A428A]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='radix-:r18:']/div/div</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>471c72f9-ed8a-4d07-a610-1a1818be7fb5</webElementGuid>
+      <webElementGuid>49f449c5-6701-4977-a6d9-106ae85e41b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>data-side</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>3c7b38d2-818e-49d3-b411-76c79880ce55</webElementGuid>
+      <webElementGuid>fb5ef04d-6850-4647-9f7f-ef5fbbd0b5b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>data-align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>7bd2d9d6-3466-4faf-b370-0d732282dd7a</webElementGuid>
+      <webElementGuid>f6a67e69-2bb2-4bb5-92b5-6e2db9e94d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>delayed-open</value>
-      <webElementGuid>e6199859-18cf-426a-8c68-dac8974d883b</webElementGuid>
+      <webElementGuid>5ec012b4-79a8-4c84-ad7f-a7c5d4d33992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-z-50 tw-overflow-hidden tw-rounded-md tw-border tw-border-slate-200 tw-bg-[#262626] tw-px-3 tw-py-1.5 tw-text-sm tw-text-slate-50 tw-shadow-md tw-animate-in tw-fade-in-0 tw-zoom-in-95 data-[state=closed]:tw-animate-out data-[state=closed]:tw-fade-out-0 data-[state=closed]:tw-zoom-out-95 data-[side=bottom]:tw-slide-in-from-top-2 data-[side=left]:tw-slide-in-from-right-2 data-[side=right]:tw-slide-in-from-left-2 data-[side=top]:tw-slide-in-from-bottom-2 dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50</value>
-      <webElementGuid>d692d29a-4dc1-4e61-b5f4-afb909cb0d16</webElementGuid>
+      <webElementGuid>dc6a0d04-b637-4695-8a56-b5104667ba67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>نسخ رابط الملفنسخ رابط الملف</value>
-      <webElementGuid>4f4fb519-140e-4a87-85e1-34cc7367f8b6</webElementGuid>
+      <webElementGuid>8d298526-681f-4241-bef7-10b58e415b42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r18:&quot;)/div[1]/div[@class=&quot;tw-z-50 tw-overflow-hidden tw-rounded-md tw-border tw-border-slate-200 tw-bg-[#262626] tw-px-3 tw-py-1.5 tw-text-sm tw-text-slate-50 tw-shadow-md tw-animate-in tw-fade-in-0 tw-zoom-in-95 data-[state=closed]:tw-animate-out data-[state=closed]:tw-fade-out-0 data-[state=closed]:tw-zoom-out-95 data-[side=bottom]:tw-slide-in-from-top-2 data-[side=left]:tw-slide-in-from-right-2 data-[side=right]:tw-slide-in-from-left-2 data-[side=top]:tw-slide-in-from-bottom-2 dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50&quot;]</value>
-      <webElementGuid>9a58192b-29f5-4ccb-82c5-719e591d9c14</webElementGuid>
+      <webElementGuid>e5dbae15-e395-49c6-be7e-47345120b42f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r18:']/div/div</value>
-      <webElementGuid>a5d459c1-0da0-45b7-b0f8-62273768001f</webElementGuid>
+      <webElementGuid>4da0bb6d-9a9d-476e-90fe-9cc49a2c3fef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحاتنا على مواقع التواصل الاجتماعي'])[1]/following::div[11]</value>
-      <webElementGuid>09659cec-bbc2-4cd3-8eec-067da2e7511c</webElementGuid>
+      <webElementGuid>43c715e3-4777-4842-b964-8eb5fc9015a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WINDOWS'])[1]/following::div[12]</value>
-      <webElementGuid>f8f63896-b246-417b-ad77-775e23ed85aa</webElementGuid>
+      <webElementGuid>2edf5e25-f4d9-44b7-8e99-a772fd14f429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='نسخ رابط الملف']/parent::*</value>
-      <webElementGuid>1f2d20d2-1505-46b6-a642-2c6d12ddce24</webElementGuid>
+      <webElementGuid>a4f7eb6c-0a3a-4c19-a89d-21f64a4dbd63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div</value>
-      <webElementGuid>2321f366-4028-4fb2-8616-adc13bf220d6</webElementGuid>
+      <webElementGuid>42e5783c-ac13-4e5b-a298-f28e301269bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'نسخ رابط الملفنسخ رابط الملف' or . = 'نسخ رابط الملفنسخ رابط الملف')]</value>
-      <webElementGuid>96cbafeb-3998-4a63-b454-9eaba69dbfb4</webElementGuid>
+      <webElementGuid>13a7a08c-c0ef-4e03-a392-3563308227e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

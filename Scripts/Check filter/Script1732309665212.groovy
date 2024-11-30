@@ -109,7 +109,7 @@ if (materialButtons != null && materialButtons.size() > 0) {
 WebUI.click(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/materila file button'))
 
 // Set text for the input field
-WebUI.setText(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/input text'), 'امتحان الشهر أول مادة العولم الصف الرابع - عز الدين القواسمي')
+WebUI.setText(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/input text'), 'علوم / الصف الاول')
 
 // Verify the visibility of "verify file2"
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/verify file2'))) {

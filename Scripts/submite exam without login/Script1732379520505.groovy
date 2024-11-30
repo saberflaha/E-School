@@ -52,8 +52,7 @@ if (classButtons != null && classButtons.size() > 0) {
 	WebUI.comment("Failed: No class buttons were found.")
 }
 
-List<WebElement> semesterButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random semester'), 
-    30)
+List<WebElement> semesterButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random semester'),  30)
 
 if ((semesterButtons != null) && (semesterButtons.size() > 0)) {
     Random random = new Random()

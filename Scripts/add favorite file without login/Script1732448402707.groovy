@@ -96,7 +96,7 @@ if (materialButtons != null && materialButtons.size() > 0) {
 WebUI.waitForElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/materila file button'), 10)
 WebUI.click(findTestObject('material file/Page_-   -  -   - joacademy.com/materila file button'))
 WebUI.click(findTestObject('Object Repository/Download file without login/Page_-   -  -   - joacademy.com/button_Download file'))
-WebUI.click(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com/verify plees login'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com/verify plees login'))
 WebUI.takeScreenshot()
 WebUI.closeBrowser()
 

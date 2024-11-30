@@ -113,9 +113,9 @@ if ((materialButtons != null) && (materialButtons.size() > 0)) {
 } else {
     WebUI.comment('Failed: No material buttons were found.')
 }
-
+WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/materila file button'))
-
+WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/Download file without login/Page_-   -  -   - joacademy.com/button_Download file'))
 
 if (WebUI.verifyElementVisible(findTestObject('downloade file/Page_-   -  -   - joacademy.com/Message The file has been uploaded successfully'), 

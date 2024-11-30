@@ -31,25 +31,23 @@ WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
 
 WebUI.click(findTestObject('E-school/Page_- joacademy.com/E-school'))
 
-boolean TextClases =WebUI.verifyElementText(findTestObject('E-school/Page_- joacademy.com/verify text clases'), 'إختر صفك الدراسي')
+boolean TextClases = WebUI.verifyElementText(findTestObject('E-school/Page_- joacademy.com/verify text clases'), 'اختر صفك الدراسي المناسب للمدرسة الالكترونية')
 
-boolean buttonClases =WebUI.verifyElementVisible(findTestObject('E-school/Page_- joacademy.com/class button'), FailureHandling.STOP_ON_FAILURE)
-if(TextClases) {
-	WebUI.comment("passed")
-	WebUI.takeScreenshot()
-	
+boolean buttonClases = WebUI.verifyElementVisible(findTestObject('E-school/Page_- joacademy.com/class button'), FailureHandling.STOP_ON_FAILURE)
+
+if (TextClases) {
+    WebUI.comment('passed')
+
+    WebUI.takeScreenshot()
+} else {
+    WebUI.comment('Verification failed: The text does not match.')
 }
-else{    WebUI.comment("Verification failed: The text does not match.")
-	
+
+if (buttonClases) {
+    WebUI.comment('passed')
+} else {
+    WebUI.comment('Verification failed: The text does not match.')
 }
-if(buttonClases) {
-	WebUI.comment("passed")
-	
-}
-else{    WebUI.comment("Verification failed: The text does not match.")
-	
-}
+
 WebUI.closeBrowser()
-
-
 

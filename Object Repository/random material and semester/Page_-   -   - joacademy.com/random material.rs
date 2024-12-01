@@ -7,13 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>div.tw-flex.tw-flex-col.tw-gap-4.tw-items-center.tw-justify-center</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>div.tw-flex.tw-flex-wrap.tw-gap-1.tw-justify-center</value>
+         <value>div.tw-flex.tw-flex-col.tw-gap-4.tw-items-center.tw-justify-center</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -28,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dcc3dede-4ad7-411f-b1a0-a53782c82bce</webElementGuid>
+      <webElementGuid>2d2c66cf-ac23-4fa1-8bb5-96cbcad1e765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 !tw-h-[190px] !tw-w-full !tw-rounded-[14px] tw-p-6 hover:tw-scale-105</value>
-      <webElementGuid>9be04f9a-a4d0-4713-97ed-071f66e3db3a</webElementGuid>
+      <webElementGuid>52847ef4-a9d6-43ae-9a14-e1fba8c76a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>العلوم(ف1)</value>
-      <webElementGuid>e11fe3c7-d92d-4022-b3d2-ebafea562d46</webElementGuid>
+      <webElementGuid>213bfc78-5146-4656-8a38-3e72d8913d1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:R1ajml6:-content-semester-one&quot;)/div[@class=&quot;tw-mt-6 tw-grid tw-grid-cols-1 tw-gap-x-5 tw-gap-y-8 xsm:tw-grid-cols-2 xsm:tw-justify-center sm:tw-grid-cols-2 md:tw-grid-cols-3 lg:tw-grid-cols-4 xl:tw-grid-cols-5 2xl:tw-justify-start 2xl:tw-gap-x-5&quot;]/a[1]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 !tw-h-[190px] !tw-w-full !tw-rounded-[14px] tw-p-6 hover:tw-scale-105&quot;]</value>
-      <webElementGuid>a891222e-d5cb-499c-825b-fdd3477a191f</webElementGuid>
+      <webElementGuid>0680e5bb-d74e-4b7c-a2bf-0c94bf68bb1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:R1ajml6:-content-semester-one']/div/a/div</value>
-      <webElementGuid>e524e510-8c5b-4e21-8aa8-5d4f28535253</webElementGuid>
+      <webElementGuid>71009642-fc3b-46a9-a3e1-59405354af25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='فصل ثاني'])[1]/following::div[3]</value>
-      <webElementGuid>f3aa1658-5ba3-4947-9adb-6dfa754c5a36</webElementGuid>
+      <webElementGuid>33767eca-ce1b-4638-926f-29586d68741e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='فصل أول'])[1]/following::div[3]</value>
-      <webElementGuid>c2f8ece9-aba6-47a4-8742-b11eb76d8a27</webElementGuid>
+      <webElementGuid>6be52e82-fe6b-4b77-9c3a-241cf9a0c509</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::div[25]</value>
-      <webElementGuid>84d87112-2ca5-4adb-9a5f-32fae57c3126</webElementGuid>
+      <webElementGuid>b57020b0-5632-46cb-8f8a-8345d5485c3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='روابط سريعة'])[1]/preceding::div[26]</value>
-      <webElementGuid>8a06e1f2-8c4e-47c9-9002-ccee1e9da7ae</webElementGuid>
+      <webElementGuid>493d2d48-2d72-4be2-a185-472e62bc2afd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
-      <webElementGuid>6effb655-3ea4-4452-9cb0-b20c693bd08a</webElementGuid>
+      <webElementGuid>653ed26a-5f52-4399-bfe8-f6d374c14db9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'العلوم(ف1)' or . = 'العلوم(ف1)')]</value>
-      <webElementGuid>1c3bc3de-8ada-4805-82ca-1aaf1382342f</webElementGuid>
+      <webElementGuid>44b9d407-b895-4108-b000-1ee41fda8a36</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

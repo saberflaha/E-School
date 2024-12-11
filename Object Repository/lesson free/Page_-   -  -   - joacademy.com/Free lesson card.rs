@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>.bold.tw-line-clamp-2.tw-text-base.tw-text-start</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='radix-:R1qjml6:-content-free-lessons']/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3a95428f-da69-4244-a767-2565425f127b</webElementGuid>
+      <webElementGuid>3072bb46-e120-40e1-89ca-10bcbdb6d18c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm tw-h-[40px] max-md:!tw-text-[14px] max-md:tw-px-2 tw-whitespace-nowrap md:!tw-mt-8 max-md:tw-relative max-md:!tw-w-full max-md:tw-border-b-4 max-md:tw-rounded-none data-[state=active]:after:tw-absolute data-[state=active]:after:-tw-bottom-[11px] !tw-bg-[#6524BF] max-lg:!tw-w-full bold tw-text-white max-md:tw-border-none !tw-rounded-[14px] !tw-drop-shadow-xl tw-text-lg lg:tw-p-1 lg:tw-px-6 tw-flex tw-items-center tw-justify-center</value>
-      <webElementGuid>26c60499-41c4-4b3e-b992-7ef38875182d</webElementGuid>
+      <webElementGuid>a7de5a25-af74-46f1-b686-3aa0f7b5d6f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6842b5cf-a303-4afb-8399-a5401514c869</webElementGuid>
+      <webElementGuid>be9a8b31-6c71-4357-9871-ece0a54b03cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>3775e970-2698-4919-90e2-4b4dcce5da29</webElementGuid>
+      <webElementGuid>e23f6e7f-69b0-46b4-bdaf-5a3ce13e964c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>04df8686-2438-442b-8805-e9600444ec54</webElementGuid>
+      <webElementGuid>e372f1c0-cb3e-4cbe-96ff-83f367a341d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>radix-:r1q:-content-free-lessons</value>
-      <webElementGuid>b211422e-3178-4e95-951a-a8f865f00ada</webElementGuid>
+      <webElementGuid>ed43a12c-b065-4c35-8d08-80a767623895</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>inactive</value>
-      <webElementGuid>6fbd3041-7ffc-4cd7-b071-c054d66f2e6e</webElementGuid>
+      <webElementGuid>00efbba6-3215-402c-ad98-22eeb653826a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>radix-:r1q:-trigger-free-lessons</value>
-      <webElementGuid>29c39cd7-9d63-4dd3-8153-a4dd3b0e56d1</webElementGuid>
+      <webElementGuid>b9bf0eb8-6a66-4da9-8c18-aff77f3138a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>354351cd-8f1a-49af-9b8d-25c0791f4189</webElementGuid>
+      <webElementGuid>77c85274-3c13-44e7-bc17-8a213de94913</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>horizontal</value>
-      <webElementGuid>5ef8c1ed-e98b-4f74-8411-afa1e7ffee4d</webElementGuid>
+      <webElementGuid>6064d4c9-e0f6-4050-a184-20143dc72e38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/e-school/%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA/free-lessons?grade=1</value>
-      <webElementGuid>cee561a5-ed1d-48f8-a4b2-acb4260c343b</webElementGuid>
+      <webElementGuid>a2f67517-2f31-4788-a1db-5a6f0dbecc63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,7 +117,7 @@
       <name>text</name>
       <type>Main</type>
       <value>دروس مجانية</value>
-      <webElementGuid>014af661-5cdf-4cda-a413-fc24f8b0aed7</webElementGuid>
+      <webElementGuid>9aa0b6aa-4da4-4154-9da5-c0b324c3f074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r1q:-trigger-free-lessons&quot;)</value>
-      <webElementGuid>cebdfd3c-0f0f-4264-a7d4-d7dc8cbcc91e</webElementGuid>
+      <webElementGuid>59e947b0-98fd-476a-b58f-961d7de53ed6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='radix-:r1q:-trigger-free-lessons']</value>
-      <webElementGuid>8980ec23-ae57-431c-8292-23fad63d4e75</webElementGuid>
+      <webElementGuid>a66262ed-0644-4358-8484-ca0aab087dbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div[3]/div/a[4]</value>
-      <webElementGuid>e407328c-715e-46cc-8581-685cdbfbd8c3</webElementGuid>
+      <webElementGuid>fcc68e80-c39b-48cb-9324-c203eaddec44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'دروس مجانية')]</value>
-      <webElementGuid>cb6857f3-c1ba-41b4-9fc1-5e17ec4eb498</webElementGuid>
+      <webElementGuid>d661849b-94df-48f3-9482-957c45504676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[1]/following::a[1]</value>
-      <webElementGuid>b8986ce5-a7aa-4add-a3c9-3de1d1365d95</webElementGuid>
+      <webElementGuid>9da2c481-f83e-478a-abb2-30baa2b6c4f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ملفات المادة'])[1]/following::a[2]</value>
-      <webElementGuid>10000487-b4d1-480f-b373-db7e43716e98</webElementGuid>
+      <webElementGuid>ebfa3cfe-05cd-4142-a496-184e3a0ce6a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='المرحلة التمهيدية: الأعداد حتى 10'])[1]/preceding::a[1]</value>
-      <webElementGuid>806285fa-345c-45a1-b28b-6d935b3c7544</webElementGuid>
+      <webElementGuid>342ca8b8-8dd7-4399-9944-afc406742957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,7 +181,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الوحدة الأولى: الأعداد ضمن منزلتين'])[1]/preceding::a[1]</value>
-      <webElementGuid>cda15edb-ef38-4583-b0cc-964d1e57e4bc</webElementGuid>
+      <webElementGuid>953e1429-6f75-4eeb-bedd-b6d6f76686d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -189,7 +189,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='دروس مجانية']/parent::*</value>
-      <webElementGuid>c78bae98-25d4-412b-b0f4-ac1c5ed3aae6</webElementGuid>
+      <webElementGuid>ff420069-622b-45ee-bf01-8b60bba9a977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -197,7 +197,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/e-school/%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA/free-lessons?grade=1')]</value>
-      <webElementGuid>cb9edfaf-409c-4a3d-8268-1de9ff2592a3</webElementGuid>
+      <webElementGuid>2ef5b1e6-b2d2-4706-b615-fdc69a9d5fb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -205,7 +205,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a[4]</value>
-      <webElementGuid>83e689e6-b15c-4a55-99e4-66e1cea966bd</webElementGuid>
+      <webElementGuid>25a492ca-7b06-4630-9d75-ea0491169dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -213,6 +213,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@type = 'button' and @id = 'radix-:r1q:-trigger-free-lessons' and @href = '/e-school/%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA/free-lessons?grade=1' and (text() = 'دروس مجانية' or . = 'دروس مجانية')]</value>
-      <webElementGuid>366e5507-7864-48f3-88f3-d65eeb1798f3</webElementGuid>
+      <webElementGuid>57d0a28c-28b1-486f-af9f-4a730b5837a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>0fcef4e5-aaa2-4966-aacb-3e0e3bb83865</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;radix-:r1p:&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;radix-:rgq:&quot;]/div[2]/div[2]/button</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f778960b-af87-43e0-a86a-68f6494bf7bb</webElementGuid>
+      <webElementGuid>da450391-a531-48cc-9b3e-50165f382889</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-[10px] tw-cursor-pointer tw-text-[16px] tw-py-[8px] tw-px-[16px] !tw-text-white !tw-border-none !tw-bg-[#51C279]</value>
-      <webElementGuid>eef4eb4d-93e0-4c62-9ed0-9588cc64630a</webElementGuid>
+      <webElementGuid>45c6e96a-79d7-44e0-8ea1-7f599b56dfe6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>94cfa7c0-4307-407d-810f-dcc6a0c96c19</webElementGuid>
+      <webElementGuid>c57b108b-c292-43e8-8ff6-850cf50d5b78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ابدأ الاختبار</value>
-      <webElementGuid>ba82836e-264d-43f5-aad4-ccd5c8aea6e4</webElementGuid>
+      <webElementGuid>8b353576-880c-4fdd-9a08-e3985c5ac399</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:r17:-content-quizzes&quot;)/div[@class=&quot;tw-flex tw-flex-wrap tw-justify-center 2xl:tw-justify-center tw-gap-6&quot;]/div[1]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-border-xl tw-grow tw-p-4 md:!tw-w-[312px] xsm:!tw-w-full tw-h-full tw-flex tw-flex-col tw-gap-4 tw-justify-between !tw-bg-[#F9F9F9]&quot;]/div[3]/button[@class=&quot;tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-[10px] tw-cursor-pointer tw-text-[16px] tw-py-[8px] tw-px-[16px] !tw-text-white !tw-border-none !tw-bg-[#51C279]&quot;]</value>
-      <webElementGuid>16ebb8b3-46f4-457c-ba91-cdf7bc06f960</webElementGuid>
+      <webElementGuid>4b85f746-f81c-4b4f-bbf0-1e752454bcdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>49ddb37f-75d7-4706-b8c3-ee59b8535299</webElementGuid>
+      <webElementGuid>d85f6dcf-18ea-424e-b99f-31bba59ee000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:r17:-content-quizzes']/div/div/div/div[3]/button</value>
-      <webElementGuid>d12bcacc-098f-4c08-964d-8504387ee562</webElementGuid>
+      <webElementGuid>a7ef5343-395f-4c14-8957-196977c9c403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='التقويم الثاني علوم الصف الأول الفصل الأول'])[1]/preceding::button[1]</value>
-      <webElementGuid>2cf10226-644b-4f3b-b045-df6f98ad7fe1</webElementGuid>
+      <webElementGuid>6263bb3b-c20f-4f53-9786-8a773dfb144f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/button</value>
-      <webElementGuid>c8d02e1e-b879-4a20-9578-a4ff1e61d944</webElementGuid>
+      <webElementGuid>57205823-dfed-4b02-bc91-890f95ebbeb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'ابدأ الاختبار' or . = 'ابدأ الاختبار')]</value>
-      <webElementGuid>45a5450d-214d-4d1b-ae65-9f3b8866311f</webElementGuid>
+      <webElementGuid>f7ffe665-5f52-487f-8f9f-1f94db13c0d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

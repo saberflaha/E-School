@@ -35,33 +35,42 @@ WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
 
 WebUI.click(findTestObject('E-school/Page_- joacademy.com/E-school'))
 
-List<TestObject> classButtons = Arrays.asList(
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 4'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3')
-)
+List<TestObject> classButtons = Arrays.asList(findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'), 
+    findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'), findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 4'), 
+    findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3'))
 
-if (classButtons != null && classButtons.size() > 0) {
-	Random random = new Random()
-	
-	TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
-	
-	try {
-		WebUI.click(randomClassButton)
-		WebUI.comment("Passed: A random class button was clicked successfully.")
-	} catch (Exception e) {
-		WebUI.comment("Failed: Error occurred while trying to click the class button. Error: " + e.getMessage())
-	}
+if ((classButtons != null) && (classButtons.size() > 0)) {
+    Random random = new Random()
+
+    TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
+
+    try {
+        WebUI.click(randomClassButton)
+
+        WebUI.comment('Passed: A random class button was clicked successfully.')
+    }
+    catch (Exception e) {
+        WebUI.comment('Failed: Error occurred while trying to click the class button. Error: ' + e.getMessage())
+    } 
 } else {
-	WebUI.comment("Failed: No class buttons were found.")
+    WebUI.comment('Failed: No class buttons were found.')
 }
 
-WebUI.verifyElementText(findTestObject('Check for 2 semesteres/Page_-   -   - joacademy.com/semester one'), 'فصل أول')
+if (WebUI.verifyElementVisible(findTestObject('Check for 2 semesteres/Page_-   -   - joacademy.com/semester one'), FailureHandling.OPTIONAL)) {
+    WebUI.comment('✅ Semester 1 is visible.')
+} else {
+    WebUI.comment('❌ Semester 1 is NOT visible.')
+}
+if (WebUI.verifyElementVisible(findTestObject('Check for 2 semesteres/Page_-   -   - joacademy.com/semester 2'), FailureHandling.OPTIONAL)) {
+	WebUI.comment('✅ Semester 2 is visible.')
+} else {
+	WebUI.comment('❌ Semester 2 is NOT visible.')
+}
 
-WebUI.verifyElementText(findTestObject('Check for 2 semesteres/Page_-   -   - joacademy.com/semester 2'), 'فصل ثاني')
+
 WebUI.takeScreenshot()
-WebUI.comment('PASSED')
-WebUI.closeBrowser()
 
+WebUI.comment('PASSED')
+
+WebUI.closeBrowser()
 

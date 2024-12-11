@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div [href='/e-school/%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85/book-content?grade=1'][role='tab'][tabindex='-1'][type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e6ebeb8b-8d77-43d7-b455-d41ee840e5a6</webElementGuid>
+      <webElementGuid>985dd8ba-0a0c-48b3-b90a-afefc5ed2448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm tw-h-[40px] max-md:!tw-text-[14px] max-md:tw-px-2 tw-whitespace-nowrap md:!tw-mt-8 max-md:tw-relative max-md:!tw-w-full max-md:tw-border-b-4 max-md:tw-rounded-none data-[state=active]:after:tw-absolute data-[state=active]:after:-tw-bottom-[11px] md:tw-bg-[#DCEAFF] tw-text-[14px] tw-w-[120px] tw-h-[46px] tw-rounded-[24px] medium tw-text-[#0D2755] max-md:tw-border-[#E5E5E5] tw-flex tw-items-center tw-justify-center</value>
-      <webElementGuid>161f5a96-14cb-404a-a4b9-e8513f65cf65</webElementGuid>
+      <webElementGuid>79c4c38b-c5a1-444e-8845-bde6c9450a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ea2387af-9b10-47f7-b1e3-67a79447de27</webElementGuid>
+      <webElementGuid>a03c2c2d-8e02-4a28-8e1d-ce9593c9cba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>08fddd16-50a1-49ee-9910-af2ef7402028</webElementGuid>
+      <webElementGuid>73d7c583-f537-4398-9747-eac76f56fcc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e83ebdb1-b4eb-493e-af9a-c352f4c2c1e9</webElementGuid>
+      <webElementGuid>8f589bf2-84a5-4823-9edb-2bddc430c71f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>radix-:R1qjnl6:-content-book-content</value>
-      <webElementGuid>ca934f0b-a944-4268-89cc-e01b1fc74c59</webElementGuid>
+      <webElementGuid>54d2b361-8b65-4bbf-986b-d465459fa7d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>inactive</value>
-      <webElementGuid>8499a94e-7d11-45db-939f-6d370d39a1b8</webElementGuid>
+      <webElementGuid>f6e89693-9a35-4120-917e-6f2873eaa83f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>radix-:R1qjnl6:-trigger-book-content</value>
-      <webElementGuid>fadfeccf-4280-4b46-a5a6-2b751cd14d7a</webElementGuid>
+      <webElementGuid>22c99e1e-03dc-46e2-ad2c-6a276177e105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>fb3fc1e4-fe8f-4abe-8c65-e6afe451a646</webElementGuid>
+      <webElementGuid>4b063f96-badd-4008-8e10-441f6cf084e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>horizontal</value>
-      <webElementGuid>755e8177-f5bc-4998-9f7c-ff6c5d9000ed</webElementGuid>
+      <webElementGuid>49861c77-b52d-4d74-8daa-f09251eb2148</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/e-school/%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/book-content?grade=10</value>
-      <webElementGuid>035093ac-9e0e-4299-bbb1-c12bc4cd9285</webElementGuid>
+      <webElementGuid>372f89ef-17a0-4a86-a5b6-339627812648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,7 +117,7 @@
       <name>text</name>
       <type>Main</type>
       <value>فهرس الكتاب</value>
-      <webElementGuid>d6ecfcc1-2b97-4f5a-aa87-4eaa9b21ec6c</webElementGuid>
+      <webElementGuid>d3d7d022-35d9-4f4f-8cd7-54466f9777e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:R1qjnl6:-trigger-book-content&quot;)</value>
-      <webElementGuid>b780d86f-c181-4895-8491-b5d93fd8e686</webElementGuid>
+      <webElementGuid>2f826b50-3dc9-4619-89da-35b6fe43bf60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='radix-:R1qjnl6:-trigger-book-content']</value>
-      <webElementGuid>394e964f-846e-45e6-b10c-da4da563d805</webElementGuid>
+      <webElementGuid>b45c2392-c778-44f7-bd79-d1592f2e5f6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div[3]/div/a</value>
-      <webElementGuid>b40e63ce-fa8f-43eb-b763-b08a4ab07220</webElementGuid>
+      <webElementGuid>f18d61ee-6372-417c-bc7c-9c1ed6d4c448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'فهرس الكتاب')]</value>
-      <webElementGuid>1a667ace-a891-4463-89b8-8461dd5d57a3</webElementGuid>
+      <webElementGuid>bf923c0e-5779-41b5-a41c-618b1f412606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[1]/following::a[1]</value>
-      <webElementGuid>ab734636-2491-4a68-8d46-a9a9febf4ca7</webElementGuid>
+      <webElementGuid>df73f5b6-2d5a-46cb-9192-442aebcd33b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='علوم الأرض'])[2]/following::a[2]</value>
-      <webElementGuid>5905abd0-fdc8-48cc-8a94-3c53ddc330c1</webElementGuid>
+      <webElementGuid>2b3ba947-5441-4f88-b0fc-21f3c1634374</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ملفات المادة'])[1]/preceding::a[1]</value>
-      <webElementGuid>0bdca5f0-ca52-4abe-9f0e-3a8242ddb6ce</webElementGuid>
+      <webElementGuid>a9b71d4e-8868-4916-aef6-685be38819e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,7 +181,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[2]/preceding::a[2]</value>
-      <webElementGuid>c4e49c93-d6bf-49d2-a81f-41e27cf60fca</webElementGuid>
+      <webElementGuid>49dd47d0-7785-41ae-9e03-59970cd1f4ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -189,7 +189,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='فهرس الكتاب']/parent::*</value>
-      <webElementGuid>f8b862b9-6b4a-4019-9cd5-2076532ecff7</webElementGuid>
+      <webElementGuid>16167aec-5757-4bea-b770-614fd2a53624</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -197,7 +197,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/e-school/%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/book-content?grade=10')]</value>
-      <webElementGuid>cc793566-0c7d-4b05-b33f-f0393fe459a1</webElementGuid>
+      <webElementGuid>58e47456-043a-4437-baae-8fee21350d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -205,7 +205,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/div/a</value>
-      <webElementGuid>710d8794-c2b5-472e-99b0-60bfb4e40961</webElementGuid>
+      <webElementGuid>e7e9ab79-6c23-4c32-8567-30a43e7081c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -213,6 +213,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@type = 'button' and @id = 'radix-:R1qjnl6:-trigger-book-content' and @href = '/e-school/%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1-%D9%81%D8%B5%D9%84-%D8%A3%D9%88%D9%84-%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/book-content?grade=10' and (text() = 'فهرس الكتاب' or . = 'فهرس الكتاب')]</value>
-      <webElementGuid>d5de998b-4f3e-42a0-855d-ab91b5a6b73b</webElementGuid>
+      <webElementGuid>51be2b1f-4a42-4658-8d7c-63b4354d2ce1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

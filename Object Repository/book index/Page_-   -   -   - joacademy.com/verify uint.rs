@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button[data-orientation='vertical'][data-radix-collection-item=''][type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6fa5a2fe-e4c5-4d0e-a928-f52e2c53f637</webElementGuid>
+      <webElementGuid>818b708e-7870-44a3-8f5c-d509fd475b70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e99c55e0-a9c6-493c-8714-f0859449f57e</webElementGuid>
+      <webElementGuid>e083a592-aebe-4eef-8287-f9c69022e6b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>radix-:rc:</value>
-      <webElementGuid>b57bbf8e-361c-4e01-a308-0968c9e401f9</webElementGuid>
+      <webElementGuid>af7be380-1e05-474a-a13f-5ed37154e40a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4672ae19-6ecc-4186-9604-a233dd4e9211</webElementGuid>
+      <webElementGuid>956d5686-fdbf-4cf1-809c-468b42562de7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>d6be2e1e-759a-4dca-b752-65991a3ec453</webElementGuid>
+      <webElementGuid>33fe4340-8739-4164-8d5a-ca26a1e630de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>vertical</value>
-      <webElementGuid>aef6f6dd-1c8e-44e5-94fd-b9f4268bd196</webElementGuid>
+      <webElementGuid>8dcd6957-e895-46b4-b108-cba354730fb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>id</name>
       <type>Main</type>
       <value>radix-:rb:</value>
-      <webElementGuid>9e7ef4ab-6de2-49e5-a9f3-9f3bba5493a9</webElementGuid>
+      <webElementGuid>e58018ae-2253-4975-9a13-6170273817e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-flex tw-flex-1 tw-items-center tw-justify-between tw-py-4 tw-font-medium tw-transition-all hover:tw-underline [&amp;[data-state=open]>svg]:tw-rotate-180 bold tw-text-lg tw-p-3 tw-w-full tw-bg-[#F9F9F9] tw-rounded-[14px] data-[state=open]:tw-rounded-b-none tw-text-[#1A428A]</value>
-      <webElementGuid>a7ca2c74-16e9-4f53-995d-8fe0b87a96df</webElementGuid>
+      <webElementGuid>cf32596e-22ec-49fc-bddd-31572f9aacdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>الصخور</value>
-      <webElementGuid>bcd73cab-9aa5-47e8-af5e-f048af3138ab</webElementGuid>
+      <webElementGuid>33cf0fb1-ed20-4587-8f80-602351fec382</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:rb:&quot;)</value>
-      <webElementGuid>d7e6e39b-38e1-4a4a-a8d0-4b0653525313</webElementGuid>
+      <webElementGuid>f0109312-672b-448f-a00b-96843cf48b77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='radix-:rb:']</value>
-      <webElementGuid>75dccf6b-493a-43f1-9be5-8aa5277930a1</webElementGuid>
+      <webElementGuid>dfbad097-81e4-4c2d-a36a-33e96267a016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:R1qjnl6:-content-book-content']/div/div/h3/button</value>
-      <webElementGuid>75b50002-cead-46a7-ae9c-ead5e0853fc6</webElementGuid>
+      <webElementGuid>bad2a936-ee7e-4051-9b27-b247cb0057aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='دروس مجانية'])[1]/following::button[1]</value>
-      <webElementGuid>f8dd9b64-6590-4448-a203-794178e96792</webElementGuid>
+      <webElementGuid>7050e6c5-93d5-4218-ba07-6fef9d1ebd53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[1]/following::button[1]</value>
-      <webElementGuid>2e055271-583e-4a0d-b1a3-21f9ab2282c6</webElementGuid>
+      <webElementGuid>da3d52ab-3233-4800-b082-4b0d5e99026c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='النجوم'])[1]/preceding::button[1]</value>
-      <webElementGuid>662ca4bb-940e-47a9-95bc-0d941056abcf</webElementGuid>
+      <webElementGuid>38c7ca2d-3d46-470a-b16f-6550284f4dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::button[2]</value>
-      <webElementGuid>3d9fe801-e0b8-48a1-b169-5c7a5bd72885</webElementGuid>
+      <webElementGuid>fa268244-9aaf-4f21-a107-36d7ec2b6386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='الصخور']/parent::*</value>
-      <webElementGuid>9f399ee9-ac1d-4d3d-b7f1-c4979d36db47</webElementGuid>
+      <webElementGuid>5ac9bdf5-291c-4fda-9512-bae58bf594df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3/button</value>
-      <webElementGuid>1049908b-abae-4fd6-a494-e05dc951211b</webElementGuid>
+      <webElementGuid>6c38a20a-ca29-43ad-a4fe-caae6c9c1137</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +173,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'radix-:rb:' and (text() = 'الصخور' or . = 'الصخور')]</value>
-      <webElementGuid>96d02d2b-e9ac-4e86-b7b4-3c481a970ea7</webElementGuid>
+      <webElementGuid>de53c4e0-9e63-4ee5-af88-5e59d1e2372f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='radix-:R1ajml6:-trigger-semester-one']</value>
+         <value>//*[@id=&quot;radix-:rr:-trigger-semester-one&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4d483aee-adab-4dd8-9508-b8910b44d8b1</webElementGuid>
+      <webElementGuid>9f48aaa1-9f74-4293-bae2-bc9fab1d00b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm tw-h-[48px] !tw-w-full tw-rounded-2xl tw-bg-[#6524BF] tw-text-white !tw-bg-gradient-to-b !tw-from-[#F2BF27] !tw-to-[#D17B0E] tw-flex tw-h-full tw-w-full tw-items-center tw-justify-center</value>
-      <webElementGuid>e238db4c-d6a0-4708-8ffd-6ce833d16a80</webElementGuid>
+      <webElementGuid>4d454bc9-0574-4cdf-8439-0c4127a96574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ab3a83a7-4875-4c1d-a06e-73754490eec4</webElementGuid>
+      <webElementGuid>06b1d5a6-c97e-4863-88d0-2184ea61f535</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>70675717-961a-43b2-aec7-47931c1df619</webElementGuid>
+      <webElementGuid>45d2af64-5c5b-495b-97d4-b8e980ebfc95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b24fded9-725b-4914-8676-6a05f2f656b4</webElementGuid>
+      <webElementGuid>93600442-2400-42a8-a972-3526896e5d1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>radix-:R1ajml6:-content-semester-one</value>
-      <webElementGuid>be25e78e-21c2-4847-bd84-78a1319fe6d6</webElementGuid>
+      <webElementGuid>0f0ba8e5-d7b4-4b3a-8032-0ab6f54450c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>7a979ca4-1425-4e91-951f-9f7f49a5a4d9</webElementGuid>
+      <webElementGuid>ffe97ada-f718-4de6-957c-fdc1f3acfcb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>radix-:R1ajml6:-trigger-semester-one</value>
-      <webElementGuid>cc14e92a-68df-4692-af7a-91f7a10d612c</webElementGuid>
+      <webElementGuid>40b010a1-1b15-4ff8-8b26-8b806e3dde5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>1304eeb9-90b9-4056-8726-a628f529b205</webElementGuid>
+      <webElementGuid>69a1f41e-33cc-48b8-9e0d-0100299bcee9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>horizontal</value>
-      <webElementGuid>b053b569-693b-440b-858c-eb7ee057e77a</webElementGuid>
+      <webElementGuid>e5d781e9-3133-4a06-81d8-56a0696f74ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/e-school/y/%D8%A7%D9%84%D8%A3%D9%88%D9%84/semester-one?grade=1</value>
-      <webElementGuid>dbc5957c-eb0a-4dad-879c-e344ead9e0f9</webElementGuid>
+      <webElementGuid>b353d3e7-9727-4a80-8a85-fe3d7f1374d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,7 +117,7 @@
       <name>text</name>
       <type>Main</type>
       <value>فصل أول</value>
-      <webElementGuid>c7a81dee-a2f0-475a-a814-b0ac2ba0d166</webElementGuid>
+      <webElementGuid>d5aa21c4-2b54-49f5-a5ed-293f777a27dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:R1ajml6:-trigger-semester-one&quot;)</value>
-      <webElementGuid>da22ae52-c16e-4408-a402-15abf59ad8a5</webElementGuid>
+      <webElementGuid>cc7af2ad-0945-4835-b0c7-69021f67c3bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='radix-:R1ajml6:-trigger-semester-one']</value>
-      <webElementGuid>7571bed9-8761-4b3e-a5fd-ad9b18b55a60</webElementGuid>
+      <webElementGuid>293c5ed7-10e9-4edb-a446-35c827c08aae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div[2]/div/a</value>
-      <webElementGuid>fbfb4f96-2b4d-4b6f-81f9-bc13d6868c2b</webElementGuid>
+      <webElementGuid>f61240d3-5fc9-490b-8a5b-61aa8d91412b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'فصل أول')]</value>
-      <webElementGuid>21570809-e592-4aae-a45c-1e642f494cea</webElementGuid>
+      <webElementGuid>47a6bba7-60d5-423e-ab7b-7cfaa881bfde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='هنا سوف تشاهد جميع موادك الدراسية'])[1]/following::a[1]</value>
-      <webElementGuid>f1d1cddc-401c-4c9e-bf2f-d97d00082a1b</webElementGuid>
+      <webElementGuid>489c662a-066e-4de8-b644-775d06ab01fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='هيا نتعلم مع جو اكاديمي'])[1]/following::a[1]</value>
-      <webElementGuid>a1a3868c-86d6-4725-9559-ca744bcc0286</webElementGuid>
+      <webElementGuid>252e02c5-67ed-428a-869a-6f56b79386fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='فصل ثاني'])[1]/preceding::a[1]</value>
-      <webElementGuid>5aad5456-2689-4f44-87b6-f675e671d9f3</webElementGuid>
+      <webElementGuid>0eeb2be4-f4a6-4913-bc70-98a916688c90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,7 +181,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::a[10]</value>
-      <webElementGuid>27845555-8496-4589-8d83-a479bc4d3991</webElementGuid>
+      <webElementGuid>6aa68e01-80ea-4a2e-b1eb-2148e49fc638</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -189,7 +189,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='فصل أول']/parent::*</value>
-      <webElementGuid>3586e12b-ac17-448b-8949-3c8ba8dd58a5</webElementGuid>
+      <webElementGuid>4b64ad1a-f41b-405d-b478-8bee5ee4bebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -197,7 +197,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/e-school/y/%D8%A7%D9%84%D8%A3%D9%88%D9%84/semester-one?grade=1')]</value>
-      <webElementGuid>712621dd-74b0-4fb6-a175-6e388174e134</webElementGuid>
+      <webElementGuid>4d765cf8-3d3c-4d7f-9d5b-7f26e666edab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -205,7 +205,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/div/a</value>
-      <webElementGuid>edaf44fb-b792-4fab-ba03-36e83da337bd</webElementGuid>
+      <webElementGuid>d4376050-4ddf-4d80-9b1f-1491b6b7e961</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -213,6 +213,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@type = 'button' and @id = 'radix-:R1ajml6:-trigger-semester-one' and @href = '/e-school/y/%D8%A7%D9%84%D8%A3%D9%88%D9%84/semester-one?grade=1' and (text() = 'فصل أول' or . = 'فصل أول')]</value>
-      <webElementGuid>97739bd0-12db-47c7-8494-b2422d6ddb36</webElementGuid>
+      <webElementGuid>0575e44a-9ea0-4ec3-862e-aad1f5667aa5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

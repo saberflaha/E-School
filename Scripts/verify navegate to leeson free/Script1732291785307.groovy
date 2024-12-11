@@ -81,28 +81,32 @@ if (semesterButtons != null && semesterButtons.size() > 0) {
     WebUI.comment("Failed: No semester buttons were found.")
 }
 
+// Randomly click a material and verify "No content"
+boolean isValid = false
+while (!isValid) {
+	List<WebElement> materialButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material'), 30)
 
-List<WebElement> materialButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material'), 30)
-
-if (materialButtons != null && materialButtons.size() > 0) {
-    Random random = new Random()
-    WebUI.comment("Material buttons found: " + materialButtons.size())
-    
-    WebElement randomMaterialButton = materialButtons.get(random.nextInt(materialButtons.size()))
-    
-    try {
-        if (randomMaterialButton.isDisplayed() && randomMaterialButton.isEnabled()) {
-            WebUI.comment("Trying to click a random material button.")
-            randomMaterialButton.click()
-            WebUI.comment("Passed: A random material button was clicked successfully.")
-        } else {
-            WebUI.comment("Failed: The selected material button is not clickable.")
-        }
-    } catch (Exception e) {
-        WebUI.comment("Failed: Error occurred while trying to click the material button. Error: " + e.getMessage())
-    }
-} else {
-    WebUI.comment("Failed: No material buttons were found.")
+	if (materialButtons.size() > 0) {
+		Random random3 = new Random()
+		WebElement randomMaterialButton = materialButtons.get(random3.nextInt(materialButtons.size()))
+		WebUI.executeJavaScript("window.scrollBy(0, 500);", null)
+	
+		WebUI.waitForElementClickable(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material'), 20)
+		randomMaterialButton.click()
+		WebUI.comment('Clicked a random material button.')
+		
+		// Check if "No content" is visible
+		if (WebUI.verifyElementVisible(findTestObject('book index/Page_-   -     -   - joacademy.com/No content'), FailureHandling.OPTIONAL)) {
+			WebUI.comment('No content found. Retrying with another material...')
+		} else {
+			isValid = true
+			WebUI.comment('Passed: A valid material was selected.')
+			WebUI.takeScreenshot()
+		}
+	} else {
+		WebUI.comment('Failed: No material buttons were found.')
+		break
+	}
 }
 
 WebUI.click(findTestObject('Object Repository/lesson free/Page_-   -  -   - joacademy.com/free-lessons'))

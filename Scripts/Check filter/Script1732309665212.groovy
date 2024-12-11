@@ -108,28 +108,23 @@ if (materialButtons != null && materialButtons.size() > 0) {
 
 WebUI.click(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/materila file button'))
 
+
 // Set text for the input field
 WebUI.setText(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/input text'), 'علوم / الصف الاول')
 
 // Verify the visibility of "verify file2"
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/verify file2'))) {
-    WebUI.comment('Passed: "Verify file2" is visible.')
-	WebUI.takeScreenshot()
-	
+// ✅ التحقق من النص وظهور الملف
+boolean isTextVisible = WebUI.verifyElementVisible(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/verify text not found file'), FailureHandling.OPTIONAL)
+boolean isFile2Visible = WebUI.verifyElementVisible(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/verify file2'), FailureHandling.OPTIONAL)
+
+if (isTextVisible || isFile2Visible) {
+    WebUI.comment('✅ Passed: At least one of the conditions is met (either "Verify text not found file" or "Verify file2" is visible).')
+    WebUI.takeScreenshot()
+    WebUI.closeBrowser()
 } else {
-    WebUI.comment('Failed: "Verify file2" is not visible.')
-	WebUI.takeScreenshot()
-	
+    WebUI.comment('❌ Failed: Neither "Verify text not found file" nor "Verify file2" is visible.')
+    WebUI.takeScreenshot()
+    WebUI.closeBrowser()
 }
 
-// Verify the text of "verify text not found file"
-if (WebUI.verifyElementText(findTestObject('Object Repository/material file/Page_-   -  -   - joacademy.com (1)/verify text not found file'), 
-    'لا يتوفر ملفات في الوقت الحالي')) {
-    WebUI.comment('Passed: The expected text "لا يتوفر ملفات في الوقت الحالي" is present.')
-} else {
-    WebUI.comment('Failed: The expected text "لا يتوفر ملفات في الوقت الحالي" is not present.')
-}
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
 

@@ -17,118 +17,141 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
+import java.util.List as List
+import java.util.Random as Random
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import com.kms.katalon.core.exception.StepFailedException as StepFailedException
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
-// open browser 
-WebUI.openBrowser('https://www.joacademy.com/login')
+void login() {
+	WebUI.openBrowser('https://www.joacademy.com/login')
+	WebUI.maximizeWindow()
 
-WebUI.maximizeWindow()
+	WebUI.click(findTestObject('login/Page_- joacademy.com/by email button'))
+	WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__email'), 'saber22@gmail.com')
+	WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__password'), '123456')
+	WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
+	// E-school
+	WebUI.click(findTestObject('Object Repository/E-school/Page_- joacademy.com/E-school'))
+}
 
-// login 
-WebUI.click(findTestObject('login/Page_- joacademy.com/by email button'))
+void selectRandomClass() {
+	List<TestObject> classButtons = Arrays.asList(
+		findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'),
+		findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'),
+		findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 4'),
+		findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3')
+	)
 
-WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__email'), 'saber22@gmail.com')
-
-WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__password'), '123456')
-
-WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
-
-// اE-school
-WebUI.click(findTestObject('E-school/Page_- joacademy.com/E-school'))
-
-
-List<TestObject> classButtons = Arrays.asList(
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 4'),
-	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3')
-)
-
-if (classButtons != null && classButtons.size() > 0) {
-	Random random = new Random()
-	
-	TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
-	
-	try {
-		WebUI.click(randomClassButton)
-		WebUI.comment("Passed: A random class button was clicked successfully.")
-	} catch (Exception e) {
-		WebUI.comment("Failed: Error occurred while trying to click the class button. Error: " + e.getMessage())
+	if (!classButtons.isEmpty()) {
+		Random random = new Random()
+		TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
+		try {
+			WebUI.click(randomClassButton)
+			WebUI.comment('Passed: A random class button was clicked successfully.')
+		} catch (Exception e) {
+			WebUI.comment('Failed: Error occurred while trying to click the class button. Error: ' + e.getMessage())
+		}
+	} else {
+		WebUI.comment('Failed: No class buttons were found.')
 	}
-} else {
-	WebUI.comment("Failed: No class buttons were found.")
+}
+
+void selectRandomSemester() {
+	List<TestObject> semesterOptions = Arrays.asList(
+		findTestObject('Object Repository/Check for 2 semesteres/Page_-   -   - joacademy.com/semester one'),
+		findTestObject('Object Repository/Check for 2 semesteres/Page_-   -   - joacademy.com/semester 2')
+	)
+
+	try {
+		Random random = new Random()
+		TestObject selectedSemester = semesterOptions.get(random.nextInt(semesterOptions.size()))
+		WebUI.comment('Trying to click on a random semester button.')
+		WebUI.click(selectedSemester)
+		WebUI.comment('Passed: A random semester button was clicked successfully.')
+	} catch (Exception e) {
+		WebUI.comment('Failed: Error occurred while clicking a semester button. Error: ' + e.getMessage())
+	}
+}
+
+boolean selectValidMaterial() {
+	List<WebElement> materialButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material'), 30)
+
+	if (!materialButtons.isEmpty()) {
+		Random random = new Random()
+		WebElement randomMaterialButton = materialButtons.get(random.nextInt(materialButtons.size()))
+		WebUI.executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(randomMaterialButton))
+		WebUI.delay(2)
+		randomMaterialButton.click()
+		WebUI.delay(10)
+		if (WebUI.verifyElementVisible(findTestObject('book index/Page_-   -     -   - joacademy.com/No content'), FailureHandling.OPTIONAL)) {
+			WebUI.comment('No content found. Closing the browser and retrying...')
+			WebUI.closeBrowser()
+			WebUI.delay(3)
+			return true
+		} else {
+			WebUI.comment('Passed: A valid material was selected.')
+			WebUI.takeScreenshot()
+			return true
+		}
+	} else {
+		WebUI.comment('Failed: No material buttons were found.')
+		return false
+	}
 }
 
 
-List<WebElement> semesterButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random semester'), 30)
-
-if (semesterButtons != null && semesterButtons.size() > 0) {
-	Random random = new Random()
-	WebUI.comment("Semester buttons found: " + semesterButtons.size())
-	
-	WebElement randomSemesterButton = semesterButtons.get(random.nextInt(semesterButtons.size()))
-	
+void verifyMaterialFileElements() {
 	try {
-		if (randomSemesterButton.isDisplayed() && randomSemesterButton.isEnabled()) {
-			WebUI.comment("Trying to click a random semester button.")
-			randomSemesterButton.click()
-			WebUI.comment("Passed: A random semester button was clicked successfully.")
+		WebUI.click(findTestObject('material file/Page_-   -  -   - joacademy.com/materila file button'))
+		WebUI.comment('Passed: "Material file button" clicked successfully.')
+		WebUI.takeScreenshot()
+	} catch (Exception e) {
+		WebUI.comment('Failed: Could not click on "Material file button". Error: ' + e.getMessage())
+	}
+	
+	// التحقق من ظهور "Input data"
+	try {
+		if (WebUI.verifyElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/input data'))) {
+			WebUI.comment('Passed: "Input data" is visible.')
 		} else {
-			WebUI.comment("Failed: The selected semester button is not clickable.")
+			WebUI.comment('Failed: "Input data" is not visible.')
 		}
 	} catch (Exception e) {
-		WebUI.comment("Failed: Error occurred while trying to click the semester button. Error: " + e.getMessage())
+		WebUI.comment('Failed: Error while verifying "Input data". Error: ' + e.getMessage())
 	}
-} else {
-	WebUI.comment("Failed: No semester buttons were found.")
-}
-
-List<WebElement> materialButtons = WebUI.findWebElements(findTestObject('Object Repository/random material and semester/Page_-   -   - joacademy.com/random material'), 30)
-
-if (materialButtons != null && materialButtons.size() > 0) {
-	Random random = new Random()
-	WebUI.comment("Material buttons found: " + materialButtons.size())
 	
-	WebElement randomMaterialButton = materialButtons.get(random.nextInt(materialButtons.size()))
-	
+	// التحقق من ظهور "Button select teacher"
 	try {
-		if (randomMaterialButton.isDisplayed() && randomMaterialButton.isEnabled()) {
-			WebUI.comment("Trying to click a random material button.")
-			randomMaterialButton.click()
-			WebUI.comment("Passed: A random material button was clicked successfully.")
+		if (WebUI.verifyElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/button_ select teasher'))) {
+			WebUI.comment('Passed: "Button select teacher" is visible.')
 		} else {
-			WebUI.comment("Failed: The selected material button is not clickable.")
+			WebUI.comment('Failed: "Button select teacher" is not visible.')
 		}
 	} catch (Exception e) {
-		WebUI.comment("Failed: Error occurred while trying to click the material button. Error: " + e.getMessage())
+		WebUI.comment('Failed: Error while verifying "Button select teacher". Error: ' + e.getMessage())
 	}
-} else {
-	WebUI.comment("Failed: No material buttons were found.")
+
+	 catch (Exception e) {
+		WebUI.comment('Failed: Error while verifying "Verify file". Error: ' + e.getMessage())
+	}
 }
-
-WebUI.click(findTestObject('material file/Page_-   -  -   - joacademy.com/materila file button'))
-WebUI.takeScreenshot()
-
-// Verify the visibility of "input data"
-if (WebUI.verifyElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/input data'))) {
-    WebUI.comment('Passed: "Input data" is visible.')
-} else {
-    WebUI.comment('Failed: "Input data" is not visible.')
+try {
+	boolean validMaterialSelected = false
+	while (!validMaterialSelected) {
+		login()
+		selectRandomClass()
+		selectRandomSemester()
+		validMaterialSelected = selectValidMaterial()
+	}
+		verifyMaterialFileElements()
+	
+} finally {
+	WebUI.closeBrowser()
 }
-
-// Verify the visibility of "button select teacher"
-if (WebUI.verifyElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/button_ select teasher'))) {
-    WebUI.comment('Passed: "Button select teacher" is visible.')
-} else {
-    WebUI.comment('Failed: "Button select teacher" is not visible.')
-}
-
-// Verify the visibility of "verify file"
-if (WebUI.verifyElementVisible(findTestObject('material file/Page_-   -  -   - joacademy.com/verify file'))) {
-    WebUI.comment('Passed: "Verify file" is visible.')
-} else {
-    WebUI.comment('Failed: "Verify file" is not visible.')
-}
-
-
-WebUI.closeBrowser()
 

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.tw-rounded-lg.tw-shadow-sm.tw-text-slate-950</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='radix-:R1qjml6:-content-quizzes']/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>678a482e-2a78-4dee-b8de-4a1a5322eae3</webElementGuid>
+      <webElementGuid>60931727-83d1-40cd-aa0f-cbd4deca0de2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-border-xl tw-grow tw-p-4 md:!tw-w-[312px] xsm:!tw-w-full tw-h-full tw-flex tw-flex-col tw-gap-4 tw-justify-between !tw-bg-[#F9F9F9]</value>
-      <webElementGuid>ccfa6d73-7e49-40d3-8da7-9ea120e6ee78</webElementGuid>
+      <webElementGuid>d0f2add1-04b3-4f9b-9c53-1000c63bff2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>اختبار الشهر الاول للعلومعدد الاسئلة :  10  سؤالمدة الامتحان : 48 دقيقةابدأ الاختبار</value>
-      <webElementGuid>20a96f21-c827-445e-b8b5-af8477c3c7ad</webElementGuid>
+      <webElementGuid>3cf31c99-18af-4433-b29d-0d4990f54ae4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-:R1qjml6:-content-quizzes&quot;)/div[@class=&quot;tw-flex tw-flex-wrap tw-justify-center 2xl:tw-justify-center tw-gap-6&quot;]/div[1]/div[@class=&quot;tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-text-slate-950 tw-shadow-sm dark:tw-border-slate-800 dark:tw-bg-slate-950 dark:tw-text-slate-50 tw-border-xl tw-grow tw-p-4 md:!tw-w-[312px] xsm:!tw-w-full tw-h-full tw-flex tw-flex-col tw-gap-4 tw-justify-between !tw-bg-[#F9F9F9]&quot;]</value>
-      <webElementGuid>023f5042-6520-4f49-aaf3-910c0c25a79d</webElementGuid>
+      <webElementGuid>664f1dab-bc16-477b-a3c9-4c80574f2643</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-:R1qjml6:-content-quizzes']/div/div/div</value>
-      <webElementGuid>4da7b314-11d1-461a-801f-f7b6c3837808</webElementGuid>
+      <webElementGuid>087dfa0b-c6f4-4ada-87d3-e78133488ef3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='دروس مجانية'])[1]/following::div[4]</value>
-      <webElementGuid>e9a7ca89-b180-428c-943e-843c8701f5b8</webElementGuid>
+      <webElementGuid>f87c272a-025c-470c-ae4a-52c9bed22bb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختبارات المادة'])[2]/following::div[4]</value>
-      <webElementGuid>7d45a2fb-f065-4d93-bbde-f8f5ef1e8cd3</webElementGuid>
+      <webElementGuid>83a8fd2f-543d-46bd-b6e6-c2cc866f9902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div</value>
-      <webElementGuid>30e903ce-40a2-4d26-9234-6302102b923f</webElementGuid>
+      <webElementGuid>be750a72-e516-4804-bc96-3f29b6ec9d1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'اختبار الشهر الاول للعلومعدد الاسئلة :  10  سؤالمدة الامتحان : 48 دقيقةابدأ الاختبار' or . = 'اختبار الشهر الاول للعلومعدد الاسئلة :  10  سؤالمدة الامتحان : 48 دقيقةابدأ الاختبار')]</value>
-      <webElementGuid>8fa60962-ca4a-44c6-b3ae-b7a59eb47b1b</webElementGuid>
+      <webElementGuid>0fd73cec-cd51-467e-8e59-010bc58ceb65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

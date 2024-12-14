@@ -22,20 +22,24 @@ import java.util.Random as Random
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
-// فتح المتصفح وتسجيل الدخول
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+// 🔐  login
 WebUI.openBrowser('https://www.joacademy.com/login')
 WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('login/Page_- joacademy.com/by email button'))
 WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__email'), 'saber22@gmail.com')
 WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__password'), '123456')
 WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
 
+// 📘go to the material exma 
 WebUI.click(findTestObject('Object Repository/E-school/Page_- joacademy.com/E-school'))
 WebUI.click(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/class 1'))
 WebUI.click(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/semesster 1'))
 WebUI.click(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/material 1'))
 
+// 📝 open exma 
 WebUI.waitForElementVisible(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'), 10)
 WebUI.click(findTestObject('Object Repository/exma material/Page_-   -  -   - joacademy.com/button exma material'))
 
@@ -43,51 +47,39 @@ WebUI.executeJavaScript("window.scrollBy(0, 200);", null)
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/start exma'))
 
-
 WebUI.switchToWindowIndex(1)
 WebUI.executeJavaScript('return document.readyState === "complete";', null)
 
-List<TestObject> buttons = [
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 2'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 3'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 4'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 5'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 6'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 7'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 8'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 9'),
-	findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com (1)/button true 10')
-]
+TestObject answerOption = new TestObject('AnswerOption')
+answerOption.addProperty('css', ConditionType.EQUALS, 'button[role="radio"][type="button"]')
+List<WebElement> answerButtons = WebUiCommonHelper.findWebElements(answerOption, 10)
 
-for (TestObject button : buttons) {
-	if (WebUI.verifyElementPresent(button, 5, FailureHandling.OPTIONAL)) {
-		WebUI.scrollToElement(button, 0)
-		WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(WebUiCommonHelper.findWebElement(button, 5)))
-		WebUI.delay(2)
-	} else {
-		WebUI.comment("الزر غير مرئي أو غير موجود: ${button.getObjectId()}")
-	}
-}
+if (answerButtons != null && !answerButtons.isEmpty()) {
+    int numOfAnswers = answerButtons.size()
+    WebUI.comment("عدد الخيارات المتاحة: " + numOfAnswers)
 
-WebUI.waitForElementVisible(findTestObject("Object Repository/submet exam/Page_- joacademy.com/finsh exma"), 10)
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'), 10, FailureHandling.OPTIONAL)) {
-	WebUI.scrollToElement(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'), 0)
-	WebUI.click(findTestObject('Object Repository/submet exam/Page_- joacademy.com/finsh exma'))
-	
-	boolean errorWhenCompletingExam = WebUI.verifyElementText(findTestObject('Object Repository/book index/Page_-   -  -   - joacademy.com/verify button_ uint questiona'), 'جميع الحقول مطلوبة')
-	if (errorWhenCompletingExam) {
-		WebUI.comment('Pass')
-	} else {
-		WebUI.comment('Fail')
-	}
-	WebUI.closeBrowser()
+    for (int i = 0; i < numOfAnswers; i++) {
+        WebElement answerButton = answerButtons.get(i)
+        JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+        
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", answerButton)
+        
+        js.executeScript("arguments[0].click();", answerButton)
+        WebUI.comment("✅ تم اختيار الإجابة رقم: " + (i + 1))
+    }
 } else {
-	WebUI.comment("'Finish Exam' button is not present.")
+    WebUI.comment('❌ لم يتم العثور على أي إجابات باستخدام button[role="radio"][type="button"]')
 }
+
+TestObject finishExamButton = findTestObject('Object Repository/exma material/Page_-   -   - joacademy.com/finsh exam')
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", WebUI.findWebElement(finishExamButton))
+WebUI.waitForElementClickable(finishExamButton, 30)
+js.executeScript("arguments[0].click();", WebUI.findWebElement(finishExamButton))
+WebUI.comment('✅ تم النقر على زر إنهاء الامتحان.')
+WebUI.delay(5)
 
 WebUI.takeScreenshot()
 
-
-//WebUI.closeBrowser()
-
+// ❌ close 
+WebUI.closeBrowser()

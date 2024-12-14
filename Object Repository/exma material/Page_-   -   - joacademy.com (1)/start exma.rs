@@ -10,12 +10,11 @@
          <value>//*[@id=&quot;radix-:ru:-content-quizzes&quot;]/div/div[4]/div/div[3]/button</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.tw-max-w-full.tw-w-full.tw-transition.tw-ease-in-out.tw-duration-150.tw-font-bold.tw-flex.tw-items-center.tw-justify-center.tw-rounded-[10px].tw-cursor-pointer.tw-text-[16px].tw-py-[8px].tw-px-[16px].!tw-text-white.!tw-border-none.!tw-bg-[#51C279]&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>button.tw-transition.tw-w-full[type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

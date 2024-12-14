@@ -6,16 +6,14 @@
    <elementGuidId>d0c0d324-a971-4197-ad2e-9fbc13f6ee4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button p.bold.tw-text-base</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.tw-text-slate-50.tw-text-sm.tw-transition-colors.tw-whitespace-nowrap</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

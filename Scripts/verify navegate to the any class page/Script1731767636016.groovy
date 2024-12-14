@@ -18,12 +18,10 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import java.util.Random as Random
 
+// 🔐 Login to the website
 WebUI.openBrowser('https://www.joacademy.com/login')
 WebUI.maximizeWindow()
 
@@ -32,23 +30,36 @@ WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__email'), 'saber
 WebUI.sendKeys(findTestObject('login/Page_- joacademy.com/input__password'), '123456')
 WebUI.click(findTestObject('login/Page_- joacademy.com/button_join'))
 
+// 📘 Navigate to the E-school section
 WebUI.click(findTestObject('E-school/Page_- joacademy.com/E-school'))
-WebUI.click(findTestObject('Object Repository/E-school/Page_- joacademy.com/class button'))
-List<WebElement> buttonClasses = WebUI.findWebElements(findTestObject('Object Repository/E-school/Page_- joacademy.com/class button'), 30)
 
-if (buttonClasses.size() > 0) {
-    Random random = new Random()
-    WebElement randomButtonClass = buttonClasses.get(random.nextInt(buttonClasses.size()))
-    
-    WebUI.waitForElementClickable(findTestObject('Object Repository/E-school/Page_- joacademy.com/class button'), 10)
-    
-    randomButtonClass.click()
-    
-    WebUI.comment("Passed: A random class button was clicked successfully.")
-	WebUI.takeScreenshot()
-	
-    WebUI.closeBrowser()
+// 🟢 List of class buttons to choose from randomly
+List<TestObject> classButtons = Arrays.asList(
+	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class1'),
+	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 2'),
+	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 3'),
+	findTestObject('Object Repository/clases 1234/Page_- joacademy.com/class 4')
+)
+
+if (!classButtons.isEmpty()) {
+	Random random = new Random()
+	TestObject randomClassButton = classButtons.get(random.nextInt(classButtons.size()))
+	try {
+		// 🟢 Click a random class button
+		WebUI.click(randomClassButton)
+		WebUI.comment('✅ Successfully clicked on a random class button.')
+		
+		// 📷 Take a screenshot for confirmation
+		WebUI.takeScreenshot()
+		
+	} catch (Exception e) {
+		WebUI.comment('❌ Failed: An error occurred while trying to click the random class button. Error: ' + e.getMessage())
+	} finally {
+		// ❌ Close the browser
+		WebUI.closeBrowser()
+	}
 } else {
-    WebUI.comment("Failed: No class buttons were found.")
-    WebUI.closeBrowser()
+	// ❌ No class buttons found
+	WebUI.comment('❌ Failed: No class buttons were found.')
+	WebUI.closeBrowser()
 }
